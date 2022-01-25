@@ -1,0 +1,12 @@
+[Unit]
+Description=Crawlerts
+[Service]
+User=root
+WorkingDirectory=/etc/elastic/crawlerts/dist
+ExecStart=/etc/elastic/crawlerts/dist/start
+SuccessExitStatus=143
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+[Install]
+WantedBy=multi-user.target

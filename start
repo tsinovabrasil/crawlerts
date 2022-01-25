@@ -1,0 +1,2 @@
+#!/bin/sh
+java -jar pingts.jar server config.yml

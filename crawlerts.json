@@ -1,0 +1,77 @@
+{
+  "output": {
+    "logstash": {
+      "port": 5045,
+      "host": "51.159.25.73"
+    }
+  },
+  "beat": {
+    "name": "wirelessts",
+    "version": "1.0.0",
+    "tags": ["Cubee"],
+    "clientName": "IPSM",
+    "clientId": 6    
+  },
+  "devices": [
+    {
+      "appendFields": {
+        "unit": {
+          "location": "Prédio 575",
+          "name": "Link Paraíba Center"
+        },
+        "OriginLocation": {          
+          "lat": "",
+          "lon": ""
+        },
+        "responsible_name": "Marco Tulio",
+        "sector_name": "TI"
+      },
+      "interval": 300,
+      "host": "192.168.50.248",
+      "username": "admin",
+      "password": "tlp@hbh",
+      "manufacturer": "Alvarion",
+      "category": "Wireless"
+    },
+    {
+      "appendFields": {
+        "unit": {
+          "location": "Prédio 575",
+          "name": "Link Paraíba Center"
+        },
+        "OriginLocation": {          
+          "lat": "",
+          "lon": ""
+        },
+        "responsible_name": "Marco Tulio",
+        "sector_name": "TI"
+      },
+      "interval": 300,
+      "host": "192.168.50.249",
+      "username": "admin",
+      "password": "tlp@hbh",
+      "manufacturer": "Alvarion",
+      "category": "Wireless"
+    },
+    {
+      "appendFields": {
+        "unit": {
+          "location": "Prédio 576",
+          "name": "Link Paraíba Center"
+        },
+        "OriginLocation": {          
+          "lat": "",
+          "lon": ""
+        },
+        "responsible_name": "Marco Tulio",
+        "sector_name": "TI"
+      },
+      "interval": 300,
+      "host": "192.168.50.246",
+      "username": "admin",
+      "password": "tlp@hbh",
+      "manufacturer": "Alvarion",
+      "category": "Wireless"
+    }
+  ]
+}
