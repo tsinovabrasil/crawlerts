@@ -1,9 +1,9 @@
 package br.com.leodevelb.crawlerts.services;
 
 import br.com.leodevelb.crawlerts.builders.WirelessAlvarionBuilder;
-import br.com.leodevelb.crawlerts.config.Beat;
-import br.com.leodevelb.crawlerts.config.Device;
-import br.com.leodevelb.crawlerts.config.Output;
+import br.com.leodevelb.crawlerts.models.Beat;
+import br.com.leodevelb.crawlerts.models.Device;
+import br.com.leodevelb.crawlerts.models.Output;
 import br.com.leodevelb.crawlerts.utils.Util;
 import java.io.BufferedOutputStream;
 import java.io.DataOutputStream;

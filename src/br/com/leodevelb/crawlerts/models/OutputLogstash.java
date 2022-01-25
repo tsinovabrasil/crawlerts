@@ -1,4 +1,4 @@
-package br.com.leodevelb.crawlerts.config;
+package br.com.leodevelb.crawlerts.models;
 
 public class OutputLogstash {
 

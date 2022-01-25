@@ -1,7 +1,7 @@
 package br.com.leodevelb.crawlerts;
 
-import br.com.leodevelb.crawlerts.config.Device;
-import br.com.leodevelb.crawlerts.config.Config;
+import br.com.leodevelb.crawlerts.models.Device;
+import br.com.leodevelb.crawlerts.models.Config;
 import br.com.leodevelb.crawlerts.utils.Util;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

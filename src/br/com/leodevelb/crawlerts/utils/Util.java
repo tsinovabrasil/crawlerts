@@ -1,7 +1,7 @@
 package br.com.leodevelb.crawlerts.utils;
 
-import br.com.leodevelb.crawlerts.config.Beat;
-import br.com.leodevelb.crawlerts.config.Device;
+import br.com.leodevelb.crawlerts.models.Beat;
+import br.com.leodevelb.crawlerts.models.Device;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import groovy.lang.Binding;

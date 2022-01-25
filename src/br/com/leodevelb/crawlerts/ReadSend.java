@@ -1,8 +1,8 @@
 package br.com.leodevelb.crawlerts;
 
-import br.com.leodevelb.crawlerts.config.Output;
-import br.com.leodevelb.crawlerts.config.Beat;
-import br.com.leodevelb.crawlerts.config.Device;
+import br.com.leodevelb.crawlerts.models.Output;
+import br.com.leodevelb.crawlerts.models.Beat;
+import br.com.leodevelb.crawlerts.models.Device;
 import br.com.leodevelb.crawlerts.services.WirelessAlvarionService;
 import br.com.leodevelb.crawlerts.utils.Ping;
 import java.util.logging.Level;

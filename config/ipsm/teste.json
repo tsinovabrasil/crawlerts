@@ -1,0 +1,37 @@
+{
+    "output": {
+      "logstash": {
+        "port": 5045,
+        "host": "51.159.25.73"
+      }
+    },
+    "beat": {
+      "name": "rackiotts",
+      "version": "1.0.0",
+      "tags": ["Cubee"],
+      "clientName": "XXX",
+      "clientId": 7    
+    },
+    "devices": [
+      {
+        "appendFields": {
+          "unit": {
+            "location": "Ipiranga 0",
+            "name": "Prédio principal"
+          },
+          "OriginLocation": {          
+            "lat": "",
+            "lon": ""
+          },
+          "responsible_name": "",
+          "sector_name": ""
+        },
+        "interval": 300,
+        "host": "URL_IP",
+        "username": "",
+        "password": "",
+        "manufacturer": "xxx",
+        "category": "api"
+      }
+    ]
+  }
